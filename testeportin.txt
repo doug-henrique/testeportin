@@ -1,0 +1,19 @@
+print('Este é um teste pós-portabilidade para correção de possiveis erros.')
+def teste1(nota):
+        if nota > 4:
+            print('Escolha uma das opções de 1 a 4')
+        elif nota < 1:
+            print('Escolha uma das opções de 1 a 4')
+        elif nota > 1:
+            print('Registrado')
+print('Teste 1 - Ligações > Linha Recebe e Efetua Ligações? \n')
+nota = int(input('1 - Recebe e efetua / 2 - Recebe e Não Efetua / 3 - Não Recebe e Efetua / 4 - Não Recebe e Não efetua \n'))
+resp1 = teste1(nota)
+print('\n')
+print('Teste 2 - SMS > Linha efetua e recebe mensagem SMS? ')
+nota = int(input('1 - Recebe e efetua / 2 - Recebe e Não Efetua / 3 - Não Recebe e Efetua / 4 - Não Recebe e Não efetua \n'))
+resp2 = teste1(nota)
+print('\n')
+print('Teste 3 - REDE >Linha tem conhexão com a rede 4G?')
+nota = int(input('1 - SIM = 4G / 2 - NÃO = 3G / 3 - Sem Rede / 4 - Intermitencia \n'))
+resp3 = teste1(nota)
